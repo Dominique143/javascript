@@ -1,0 +1,27 @@
+
+
+
+function somar(a, b) {
+console.log(a + b); // só exibe
+}
+let resultado = somar(3, 4);
+console.log(resultado);
+// → 7
+// → undefined
+
+
+
+
+
+
+
+
+//correçao
+
+function somar ( a,b){
+ return(a+b);
+
+}
+
+let resultado = somar(3,4);
+console.log(resultado);
